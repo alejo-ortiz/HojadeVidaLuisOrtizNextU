@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title> Hoja de Vida </title>
+  </head>
+  <body>
+    <header>
+      <svg width="250px" height="180px" >
+      <image xlink:href="img/logo.svg" width="250px" height="180px" ></image>
+    </svg>
+   <h1>Hoja de Vida</h1>
+    </header>
+    <section>
+            <article>
+                <h2>Datos Personales</h2>
+                <h3>Nombres:</h3><p style="line-height:0px"><em>Luis Alejandro.</em></p>
+                <h3>Apellidos:</h3><p style="line-height:0px"><em>Ortiz Galindo.</em></p>
+                <h3>Fecha de Nacimiento:</h3><p style="line-height:0px"><em>04 de Abril de 1989.</em></p>
+                <h3>Lugar de Nacimiento:</h3><p style="line-height:0px"><em>Neiva, Huila- Colombia</em></p>
+            </article>
+      </section>
+      <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="educacion.html">Educación</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+            </ul>
+        </nav>
+        <section>
+          <h2>Educación</h2>
+             <article>
+                 <table border="1" cellpadding="10" cellspacing="0">
+                   <thead>
+                     <tr>
+                         <th>Año</th>
+                         <th>Institución</th>
+                         <th>Lugar</th>
+                         <th>¿Culminó?</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                         <td align="center">2005</td>
+                         <td align="center">INEM "Julian Motta Salas"</td>
+                         <td align="center">Neiva</td>
+                         <td align="center">Si</td>
+                     </tr>
+                     <tr>
+                         <td align="center">2012</td>
+                         <td align="center">Universidad Antonio Nariño</td>
+                         <td align="center">Neiva</td>
+                         <td align="center">Si</td>
+                     </tr>
+                     <tr>
+                         <td align="center">2016</td>
+                         <td align="center">Corporacion Universitaria Minuto de Dios </td>
+                         <td align="center">Neiva</td>
+                         <td align="center">Si</td>
+                     </tr>
+                   </tbody>
+                 </table>
+             </article>
+        </section>
+        <h3>Agregar Estudios</h3>
+    <form name="Ingreso" autocomplete="on">
+      <fieldset>
+        <p>
+          <label for="año">Año: </label>
+          <select name="año">
+            <option value="1">2017</option>
+            <option value="1">2016</option>
+            <option value="1">2015</option>
+            <option value="1">2014</option>
+            <option value="1">2013</option>
+            <option value="1">2012</option>
+            <option value="1">2011</option>
+            <option value="1">2010</option>
+            <option value="1">2009</option>
+            <option value="1">2008</option>
+            <option value="1">2007</option>
+            <option value="1">2006</option>
+            <option value="1">2005</option>
+            <option value="1">2004</option>
+            <option value="1">2003</option>
+            <option value="1">2002</option>
+
+          </select>
+        </p>
+        <p>
+          <label for="institucion">Institución: </label>
+           <input type="text" id="institucion" placeholder="Ej: Institucion" autofocus required>
+        </p>
+        <p>
+          <label for="lugar">Lugar:
+          </label>
+          <textarea  name="lugar" rows="1" cols="60" placeholder="Ej: Neiva, Huila- Colombia" autofocus required></textarea>
+        </p>
+
+        <p>
+          <input type="submit" value="Enviar">
+        </p>
+      </fieldset>
+    </form>
+        <footer>
+          <p>@Derechos Reservados</p>
+            <ul>
+                <li><strong>E-mail: </strong>alejoclassic@gmail.com</li>
+                <li><strong>Teléfono: </strong>+57 320 4785625</li>
+                <li><strong>Dirección: </strong>Clle 27a # 33C Bis 60, Neiva-Huila</li>
+                <li><strong>Facebook: </strong><a href="https://www.facebook.com/alejoclassic">Alejandro Ortiz</a></li>
+            </ul>
+        </footer>
+  </body>
+</html>
